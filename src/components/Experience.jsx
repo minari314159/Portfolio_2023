@@ -14,15 +14,15 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: 'rgba(200, 200, 200, 0.05)', color:'lightslategray', backdropFilter: "blur(5px)", boxShadow:"0 15px 15px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 10px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -0.4px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.2), inset 0 10px 30px 0 rgba(255, 255, 255, 0.2)", borderRadius:"5px" }}
-      contentArrowStyle={{ borderRight: "7px solid  #DF3562" }}
+      contentStyle={{ background: "rgba(200, 200, 200, 0.05)", color:'lightslategray', backdropFilter: "blur(5px)", boxShadow:"0 15px 15px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2),0 -5px 10px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -0.4px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.2), inset 0 10px 30px 0 rgba(255, 255, 255, 0.2)", borderRadius:"2px" }}
+      contentArrowStyle={{ borderRight: "10px solid  #4A4A4A" }}
       animate={{Boolean: true}}
       date={experience.date}
-      iconStyle={{ background: 'rgba(243, 241, 240, 0.1)', width: 40, height: 40 }} >
+      iconStyle={{ background: 'rgba(243, 241, 240, 0.5)', width: 40, height: 40, color:'rgba(243, 241, 240, 0.3)'}} >
       <div>
-        <h3 className='text-deeporange text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-deeporange text-[24px] font-light'>{experience.title}</h3>
         <p
-          className='text-secondary text-[16px] font-medium'
+          className='text-secondary text-[16px] font-light'
           style={{ margin: 0 }}
         >
           {experience.company_name}

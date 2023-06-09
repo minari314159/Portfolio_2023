@@ -19,7 +19,8 @@ import {
   nanocellum,
   autohousepanel,
   nanocellumpanel,
-  algopanel
+  algopanel,
+  holobiont
 } from "../assets";
 
 export const navLinks = [
@@ -107,19 +108,22 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "November 2014 - May 2018",
     points: [
-      "Developing and maintaining ",
+      "Conducted experimental research in Dr. Vicki Meli’s (vmeli@mta.ca) & Dr. Stephen Westcott’s (swestcott@mta.ca) with a focus on nanomaterials",
+      "Taught and supervised laboratory activities",
       "Completed and received a HBSc. in Chemistry"
     ],
   },
   {
     title: "Nanotechnologist",
-    company_name: "KTH Royal Institute of Technology- Alba Nova",
+    company_name: "BIOX Research Group - KTH",
     icon: autohouse,
     iconBg: "#FFFFFF",
     date: "November 2018 - May 2020",
     points: [
-      "Developing and maintaining ",
-      "Completed and received an MSc. in ELectrical Engineering"
+      "Conducted experimental research on the green synthesis of thermoelectric material", 
+      "An independent and self driven work environment, with supervision from Dr. Bejan Hamawandi (bejan@kth.se)",
+      "Involved in the reaction simulation software, Meduza",
+      "Completed and received an MSc. in Electrical Engineering"
     ],
   },
   {
@@ -129,7 +133,8 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2020 - Feb 2022",
     points: [
-      "Developing and maintaining ",
+      "Design and research of multibiomaterials for integration in the built environment",
+      "Included extensive computation material simulations",
       "Completed and received an MSc. in Bio-Integrated Design"
     ],
   },
@@ -140,7 +145,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2021 - Jan 2023",
     points: [
-      "Developing and maintaining "
+      "Design and research of biomaterials to create two product, Algowatt and Nanocellum",
+      "The developed light product and electrical system was for integration in the built environment",
+      "Works developed here was present at the BPro Show 2022, London, UK"
     ],
   },
 ];
@@ -149,18 +156,18 @@ const projects = [
   {
     name: "Autonomous House",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A interactive web-based platform that allows users to scroll through the Autonomous House a visonary project developed with the Autonomous House Group. The web-app displays this envisioned architecture in hot arid environments where thermoelectric waste-heat recovery would be most useful ",
     tags: [
       {
-        name: "react",
+        name: "react, threejs, tailwind",
         color: "blue-text-gradient",
       },
       {
-        name: "threejs",
+        name: "Web-Project Created 2023",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Project Developed 2021-2022",
         color: "pink-text-gradient",
       },
     ],
@@ -170,18 +177,18 @@ const projects = [
   {
     name: "Algowatt",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based panel produces electricity from microalgae, comparing to other forms of electricity.",
     tags: [
       {
-        name: "react",
+        name: "react, javascript, scss",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Web-Project Created 2023",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Project Developed 2022",
         color: "pink-text-gradient",
       },
     ],
@@ -191,18 +198,18 @@ const projects = [
   {
     name: "Nanocellum",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based lamp is made of sustainibly grown transparent cellulose",
     tags: [
       {
-        name: "nodejs",
+        name: "vanillajs, git, css",
         color: "blue-text-gradient",
       },
       {
-        name: "git",
+        name: "Web-Project Created 2023",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Project Developed 2022-2023",
         color: "pink-text-gradient",
       },
     ],
@@ -212,22 +219,22 @@ const projects = [
   {
     name: "Holobiont",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive mapping tool to show the lack of biodiversity and greenery in cities and how this effect the microbiome, health and air quality. Users can explore the general areas of cities that could be updated, reducing the area of the concrete jungle",
     tags: [
       {
-        name: "nodejs",
+        name: "react, javascript, scss",
         color: "blue-text-gradient",
       },
       {
-        name: "git",
+        name: "Web-Project Created 2023",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Project Developed 2020-2021",
         color: "pink-text-gradient",
       },
     ],
-    image: nanocellumpanel,
+    image: holobiont,
     source_code_link: "https://github.com/",
   },
 ];

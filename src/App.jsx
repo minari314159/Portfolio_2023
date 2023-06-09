@@ -5,15 +5,13 @@ import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas} fro
 const App = () =>{
   return (
     <BrowserRouter>
-    <div className= "relative 2-0 bg-primary">
-    <Navbar />
-      <div >
-        <Hero />
-      </div>
+    <div className= "relative 2-0 bg-gradient-to-br from-red-100 to-slate-500">
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Tech />
       <div className="relative z-0">
-        <About />
-       <Experience />
-        <Tech />
         <Works />
         <Contact />
         <StarsCanvas />

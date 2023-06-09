@@ -12,7 +12,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
   <motion.div
     variants={fadeIn("left", "spring", index * 0.5, 0.75)}
-    className='xs:w-[250px] w-full p-[1px] rounded-[10px] bmorph'
+    className='xs:w-[250px] w-full ml-24 p-[1px] rounded-[10px] bmorph'
   >
     <Tilt  
       perspective={500} 
@@ -35,7 +35,7 @@ const ServiceCard = ({ index, title, icon }) => {
             className='w-16 h-16 object-contain'
           />
 
-          <h3 className='text-gray-500 text-[20px] font-bold text-center'>
+          <h3 className='text-gray-500 text-[20px] font-light text-center'>
             {title}
           </h3>
         </div>

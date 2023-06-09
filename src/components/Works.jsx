@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard =  ({index, name, description, tags, image, source_code_link}) => {
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='bmorph p-5 sm:w-[360px] w-full'>
+        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='glass-morph p-5 sm:w-[360px] w-full'>
                 <div className='relative w-full h-[200px]'>
                     <img
                         src={image}
@@ -27,10 +27,10 @@ const ProjectCard =  ({index, name, description, tags, image, source_code_link})
                 </div>
             </div>
             <div className='mt-5'>
-                <h3 className='text-deeporange font-bold text-[30]'>{name}</h3>
+                <h3 className='text-deeporange font-light text-[40]'>{name}</h3>
                 <p className='mt-2 text-secondary text-[14px]'>{description}</p>
             </div>
-            <div className='mt-4 flex flex-wrap gap-1'/>
+            <div className='mt-4 flex gap-1'/>
             {tags.map((tag) => (
                 <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                     #{tag.name}
@@ -50,8 +50,8 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} text-left`}>
           Projects.</h2>
 
-        <p className='text-secondary p-1'>
-                The following projects showcase my skill and experience through real-world examples of my work. Each project is briefly described with links to the code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
+        <p className='text-secondary p-1 ml-4 mb-4'>
+                The following showcase my skill and experience through which I developed web applications for real-world projects and product I personally created in the past. Each project is briefly described with links to the code repositories and live demos. It reflects my ability to solve complex problems computationally and with past engineering and design projects, work with different technologies, and manage projects effectively.
         </p>
     </motion.div>
 
