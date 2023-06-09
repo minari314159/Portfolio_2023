@@ -9,13 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard =  ({index, name, description, tags, image, source_code_link}) => {
     return (
-        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-            <Tilt  
-                options= {{ 
-                    max: 40, 
-                    scale: 0.5, 
-                    speed: 500,}}
-                className='bmorph p-5 sm:w-[360px] w-full'>
+        <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className='bmorph p-5 sm:w-[360px] w-full'>
                 <div className='relative w-full h-[200px]'>
                     <img
                         src={image}
@@ -33,7 +27,7 @@ const ProjectCard =  ({index, name, description, tags, image, source_code_link})
                 </div>
             </div>
             <div className='mt-5'>
-                <h3 className='text-white font-bold text-[24]'>{name}</h3>
+                <h3 className='text-deeporange font-bold text-[30]'>{name}</h3>
                 <p className='mt-2 text-secondary text-[14px]'>{description}</p>
             </div>
             <div className='mt-4 flex flex-wrap gap-1'/>
@@ -42,7 +36,6 @@ const ProjectCard =  ({index, name, description, tags, image, source_code_link})
                     #{tag.name}
                 </p>
             ))}
-        </Tilt>
      </motion.div>
     )
 

@@ -68,21 +68,21 @@ const handleSubmit = (e) => {
               <span className='text-secondary font-bold mb-4'>Your Name</span>
               <input type="text" name="name" value={form.name} onChange={handleChange}
               placeHolder="What's your name?"
-              className='content-shadow py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'/>
+              className='content-shadow py-4 px-6 placeholder:text-gray-300 text-secondary rounded-lg outline-none border-none font-light'/>
             </label>
 
             <label className='flex flex-col'>
               <span className='text-secondary font-bold mb-4'>Your Email</span>
               <input type="email" name="email" value={form.email} onChange={handleChange}
               placeHolder="What's your email?"
-              className='content-shadow py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'/>
+              className='content-shadow py-4 px-6 placeholder:text-gray-300 text-secondary rounded-lg outline-none border-none font-light'/>
             </label>
 
             <label className='flex flex-col'>
               <span className='text-secondary font-bold mb-4'>Your Message</span>
               <textarea rows="7" name="message" value={form.message} onChange={handleChange}
               placeHolder="What do you want to say?"
-              className='content-shadow py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'/>
+              className='content-shadow py-4 px-6 placeholder:text-gray-300 text-secondary rounded-lg outline-none border-none font-light'/>
             </label>
             
             <button type="submit" className="py-3 px-8  w-fit text-secondary font-bold bmorph">

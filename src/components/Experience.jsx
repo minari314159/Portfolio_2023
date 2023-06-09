@@ -14,23 +14,15 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      contentStyle={{ background: 'rgba(243, 241, 240, 0.1)', color: '#fff', backdropFilter: "blur(10px)", boxShadow:"0 15px 15px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 10px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -0.4px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.2), inset 0 10px 30px 0 rgba(255, 255, 255, 0.2)", borderRadius:"10px" }}
+      contentStyle={{ background: 'rgba(200, 200, 200, 0.05)', color:'lightslategray', backdropFilter: "blur(5px)", boxShadow:"0 15px 15px -4px rgba(0, 0, 0, 0.5), inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2), 0 -10px 10px -1px rgba(255, 255, 255, 0.6), inset 0 3px 4px -0.4px rgba(255, 255, 255, 0.2), inset 0 0 5px 1px rgba(255, 255, 255, 0.2), inset 0 10px 30px 0 rgba(255, 255, 255, 0.2)", borderRadius:"5px" }}
       contentArrowStyle={{ borderRight: "7px solid  #DF3562" }}
       animate={{Boolean: true}}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg, width: 40, height: 40 }}
-      icon={
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-full h-full  object-contain flex justify-center items-center '
-          />
-      }
-    >
+      iconStyle={{ background: 'rgba(243, 241, 240, 0.1)', width: 40, height: 40 }} >
       <div>
-        <h3 className='text-secondary text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-deeporange text-[24px] font-bold'>{experience.title}</h3>
         <p
-          className='text-white text-[16px] font-semibold'
+          className='text-secondary text-[16px] font-medium'
           style={{ margin: 0 }}
         >
           {experience.company_name}
