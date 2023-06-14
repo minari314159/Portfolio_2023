@@ -12,7 +12,7 @@ const ServiceCard = ({ index, title, icon }) => {
   return (
   <motion.div
     variants={fadeIn("left", "spring", index * 0.5, 0.75)}
-    className='xs:w-[250px] w-full ml-24 p-[1px] rounded-[10px] bmorph'
+    className='xs:w-[250px] w-full p-[1px] bmorph'
   >
     <Tilt  
       perspective={500} 
@@ -20,7 +20,7 @@ const ServiceCard = ({ index, title, icon }) => {
       glareMaxOpacity={0.1}
       scale={1.05}
       glarePosition="all"
-      className='xs:w-[250px] w-full'>
+      className='xs:w-[250px]'>
 
         <div 
           options= {{ 
@@ -66,9 +66,9 @@ return (
       </motion.p>
     </motion.div>
 
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap gap-10 justify-center'>
       {services.map((service, index) => (
-        <ServiceCard key={service.title} index={index} {...service} />
+        <ServiceCard key={service.title} index={index} {...service}/>
       ))}
     </div>
   </>

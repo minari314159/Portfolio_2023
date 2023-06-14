@@ -201,7 +201,7 @@ const projects = [
       "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based lamp is made of sustainibly grown transparent cellulose",
     tags: [
       {
-        name: "vanillajs, git, css",
+        name: "React, git, Tailwindcss",
         color: "blue-text-gradient",
       },
       {
@@ -214,7 +214,7 @@ const projects = [
       },
     ],
     image: nanocellumpanel,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/minari314159/Nanocellum",
   },
   {
     name: "Holobiont",

@@ -1,4 +1,3 @@
-import Tilt from 'react-parallax-tilt';
 import { motion     } from 'framer-motion';
 import { github, } from '../assets';
 
