@@ -13,7 +13,7 @@ import nanotech from "./nanotech.png";
 import nanocellum from "./nanocellum.png";
 import nanocellumpanel from "./nanocellumpanel.png";
 import autohousepanel from "./autohousepanel.png";
-import algopanel from "./algopanel .png";
+import algopanel from "./algopanel.png";
 import holobiont from "./holobiont.png";
 
 import css from "./tech/css.png";
