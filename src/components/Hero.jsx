@@ -43,3 +43,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+//remove computer canvas and replace with spinning mandel bulb that goes behind title and name/

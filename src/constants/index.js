@@ -20,7 +20,7 @@ import {
   autohousepanel,
   nanocellumpanel,
   algopanel,
-  holobiont
+  gamehub
 } from "../assets";
 
 export const navLinks = [
@@ -180,7 +180,7 @@ const projects = [
     "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based panel produces electricity from microalgae, comparing to other forms of electricity.",
     tags: [
       {
-        name: "react, javascript, scss",
+        name: "React, Javascript, scss",
         color: "blue-text-gradient",
       },
       {
@@ -201,7 +201,7 @@ const projects = [
       "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based lamp is made of sustainibly grown transparent cellulose",
     tags: [
       {
-        name: "React, git, Tailwindcss",
+        name: "React, Git, Tailwindcss",
         color: "blue-text-gradient",
       },
       {
@@ -217,12 +217,12 @@ const projects = [
     source_code_link: "https://github.com/minari314159/Nanocellum",
   },
   {
-    name: "Holobiont",
+    name: "Greg's Gaming Corner",
     description:
       "A comprehensive mapping tool to show the lack of biodiversity and greenery in cities and how this effect the microbiome, health and air quality. Users can explore the general areas of cities that could be updated, reducing the area of the concrete jungle",
     tags: [
       {
-        name: "react, javascript, scss",
+        name: "React, Typescript, Chakra UI",
         color: "blue-text-gradient",
       },
       {
@@ -230,12 +230,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Project Developed 2020-2021",
+        name: "Project Developed 2023",
         color: "pink-text-gradient",
       },
     ],
-    image: holobiont,
-    source_code_link: "https://github.com/",
+    image: gamehub,
+    source_code_link: "https://github.com/minari314159/Gamehub",
   },
 ];
 
