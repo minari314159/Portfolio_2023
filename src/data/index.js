@@ -203,7 +203,7 @@ const projects = [
   {
     name: "Nanocellum",
     description:
-      "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based lamp is made of sustainibly grown transparent cellulose",
+      "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based lamp is made of sustainibly grown transparent cellulose. ",
     tags: [
       {
         name: "React, Git, Tailwindcss",
@@ -222,9 +222,9 @@ const projects = [
     source_code_link: "https://github.com/minari314159/Nanocellum",
   },
   {
-    name: "Greg's Gaming Corner",
+    name: "Game Hub",
     description:
-      "A comprehensive mapping tool to show the lack of biodiversity and greenery in cities and how this effect the microbiome, health and air quality. Users can explore the general areas of cities that could be updated, reducing the area of the concrete jungle",
+      "A comprehensive gameing directory, for not only keeping track of the games you own, but saving games you are intrested in. Games can be filtered not only by platform, rating and date added but also by user previous preferences. Key skill implementation involved the use of RAWG API, ReactQuery, React Router and Zustand. ",
     tags: [
       {
         name: "React, Typescript, Chakra UI",
