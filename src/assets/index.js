@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import logo_dark from "./logo_dark.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
+import threeddev from "./backend.png";
+import oop from "./oop.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -23,16 +23,16 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import typescript from "./tech/typescript.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-
+import python from "./tech/python.png";
 
 export {
   logo,
   logo_dark,
-  backend,
-  creator,
+  threeddev,
+  oop,
   mobile,
   web,
   github,
@@ -45,7 +45,8 @@ export {
   javascript,
   nodejs,
   reactjs,
-  redux,
+  typescript,
+  python,
   tailwind,
   threejs,
   algowatt,
@@ -55,5 +56,5 @@ export {
   autohousepanel,
   nanocellumpanel,
   algopanel,
-  gamehub
+  gamehub,
 };

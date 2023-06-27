@@ -1,13 +1,13 @@
 import {
   mobile,
-  backend,
-  creator,
+  threeddev,
+  oop,
   web,
   javascript,
   html,
   css,
   reactjs,
-  redux,
+  typescript,
   tailwind,
   nodejs,
   git,
@@ -20,7 +20,8 @@ import {
   autohousepanel,
   nanocellumpanel,
   algopanel,
-  gamehub
+  gamehub,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -49,11 +50,11 @@ const services = [
   },
   {
     title: "3D Developer",
-    icon: backend,
+    icon: threeddev,
   },
   {
-    title: "UI Creator",
-    icon: creator,
+    title: "Object Orient Programming",
+    icon: oop,
   },
 ];
 
@@ -71,16 +72,16 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Node JS",
@@ -93,6 +94,10 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "figma",
@@ -110,7 +115,7 @@ const experiences = [
     points: [
       "Conducted experimental research in Dr. Vicki Meli’s (vmeli@mta.ca) & Dr. Stephen Westcott’s (swestcott@mta.ca) with a focus on nanomaterials",
       "Taught and supervised laboratory activities",
-      "Completed and received a HBSc. in Chemistry"
+      "Completed and received a HBSc. in Chemistry",
     ],
   },
   {
@@ -120,10 +125,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "November 2018 - May 2020",
     points: [
-      "Conducted experimental research on the green synthesis of thermoelectric material", 
+      "Conducted experimental research on the green synthesis of thermoelectric material",
       "An independent and self driven work environment, with supervision from Dr. Bejan Hamawandi (bejan@kth.se)",
       "Involved in the reaction simulation software, Meduza",
-      "Completed and received an MSc. in Electrical Engineering"
+      "Completed and received an MSc. in Electrical Engineering",
     ],
   },
   {
@@ -135,7 +140,7 @@ const experiences = [
     points: [
       "Design and research of multibiomaterials for integration in the built environment",
       "Included extensive computation material simulations",
-      "Completed and received an MSc. in Bio-Integrated Design"
+      "Completed and received an MSc. in Bio-Integrated Design",
     ],
   },
   {
@@ -147,11 +152,11 @@ const experiences = [
     points: [
       "Design and research of biomaterials to create two product, Algowatt and Nanocellum",
       "The developed light product and electrical system was for integration in the built environment",
-      "Works developed here was present at the BPro Show 2022, London, UK"
+      "Works developed here was present at the BPro Show 2022, London, UK",
     ],
   },
 ];
- 
+
 const projects = [
   {
     name: "Autonomous House",
@@ -177,7 +182,7 @@ const projects = [
   {
     name: "Algowatt",
     description:
-    "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based panel produces electricity from microalgae, comparing to other forms of electricity.",
+      "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based panel produces electricity from microalgae, comparing to other forms of electricity.",
     tags: [
       {
         name: "React, Javascript, scss",
@@ -236,6 +241,7 @@ const projects = [
     ],
     image: gamehub,
     source_code_link: "https://github.com/minari314159/Gamehub",
+    live_link: "https://game-7rijhkuik-minari314159.vercel.app",
   },
 ];
 

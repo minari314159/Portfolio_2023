@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import {  NavLink } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks } from "../data";
 import { menu, close, logo_dark } from "../assets";
 
 const Navbar = () => {
@@ -34,7 +34,7 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link
+        <NavLink
           to='/'
           className='flex items-center gap-2'
           onClick={() => {
@@ -46,7 +46,7 @@ const Navbar = () => {
           <p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
             &nbsp;
           </p>
-        </Link>
+        </NavLink>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (

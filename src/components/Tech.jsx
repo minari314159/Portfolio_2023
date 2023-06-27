@@ -1,9 +1,10 @@
-import { BallCanvas } from "./canvas";
+
 import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { technologies } from "../data";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
+
 
 const Tech = () => {
   return (
@@ -13,10 +14,10 @@ const Tech = () => {
         <h2 className={`${styles.sectionHeadText} text-left`}>Skills</h2>
       </motion.div>
 
-      <div className=" flex flex-row flex-wrap justify-center gap-10">
+      <div className=" flex flex-row flex-wrap justify-center gap-10 xs:mb-5">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+          <div className="w-28 h-28 rounded-full cursor-pointer techbtn" key={technology.name}>
+            <img src={technology.icon} className="object-fit w-2/3  ml-4 mt-4" alt={technology.name}/>
           </div>
         ))}
       </div>
@@ -26,5 +27,5 @@ const Tech = () => {
 
 export default SectionWrapper(Tech, "techbologies");
 
-//remove ball canvas and create satifying soft buttons for each tech known (too heavy)//
+
 //write blurb about skills in section head//

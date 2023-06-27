@@ -1,13 +1,13 @@
-import React from "react";
-import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
+import Tilt from "react-parallax-tilt";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { services } from "../data";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => {
+
   
   return (
   <motion.div
@@ -23,10 +23,6 @@ const ServiceCard = ({ index, title, icon }) => {
       className='xs:w-[250px]'>
 
         <div 
-          options= {{ 
-            max: 40, 
-            scale: 0.5, 
-            speed: 500,}}
           className= 'rounded-[10px] py-5 px-5 min-h-[200px] flex justify-evenly items-center flex-col'
         >
           <img
@@ -60,8 +56,7 @@ return (
       className='m-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
       I am a frontend software developer with experience in JavaScript and Python, and expertise in frameworks like React, Node.js, and
-      Three.js. I am a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
+      Three.js. I am a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Lets work together to bring your ideas to life!
       </motion.p>
     </motion.div>

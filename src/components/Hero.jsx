@@ -14,7 +14,7 @@ const Hero = () => {
           | <span className='text-slate-400'> SJ Olsen</span> |
           </h1>
           <p className={`${styles.heroSubText} mt-5 text-gray-500`}>
-            Frontend developer specializing in 3D visuals, interactive user interfaces and web applications!
+            Frontend software developer specializing in 3D visuals, interactive user interfaces and React web applications!
           </p>
         </div>
       </div>
