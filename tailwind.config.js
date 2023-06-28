@@ -13,11 +13,12 @@ module.exports = {
         "white-100": "#f3f3f3",
         deeporange: "#FCCCB85",
       },
-      boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
-      },
       screens: {
-        xs: "450px",
+        xs: "375px",
+        s: "425px",
+        md: "768px ",
+        lg: "1024px",
+        xl: "1440px"
       },
     },
   },

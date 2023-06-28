@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
 
-      <div className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+      <div className="absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5"
       >
         <div className="content-shadow">
           <h1 className={`${styles.heroHeadText}`}>
@@ -18,8 +17,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
 
       <div className='absolute xs:bottom-5 bottom-5 w-full flex justify-center items-center'>
         <a href='#about'>

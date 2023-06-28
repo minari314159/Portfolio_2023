@@ -1,39 +1,21 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {  NavLink } from "react-router-dom";
-
-import { styles } from "../styles";
 import { navLinks } from "../data";
 import { menu, close, logo_dark } from "../assets";
+
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
- 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
 
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
         <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-4 sticky top-0 z-20 ${
-        scrolled ? "glass-morph" : "glass-morph"
-      }`}
+      className="w-full flex items-center py-4 sticky top-0 z-20 bg-gradient-to-r from-red-100 to-slate-400 opacity-80 menu"
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-5/6 flex justify-between items-center mx-auto'>
+
         <NavLink
           to='/'
           className='flex items-center gap-2'
@@ -42,10 +24,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo_dark} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
-            &nbsp;
-          </p>
+          <img src={logo_dark} alt='logo' className='w-9 h-9 object-contain cursor-pointer' />
         </NavLink>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -54,7 +33,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-primary" : "text-secondary"
-              } hover:text-deeporange text-[18px] font-light cursor-pointer`}
+              } hover:text-black text-lg font-light cursor-pointer md:text-md xl:text-xl`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -62,7 +41,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
             alt='menu'
@@ -72,18 +51,18 @@ const Navbar = () => {
 
           <div
             className={`${
-              !toggle ? "hidden" : "flex"
-            }  p-4 glass-morph absolute top-10 right-0 mx-3 my-8 min-w-[140px] z-20`}
+              toggle ? "flex" : "hidden"
+            }  p-4  rounded-b-lg menu absolute top-10 right-0 my-7 min-w-[140px] z-20 bg-slate-400 opacity-90`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                  className={`font-light cursor-pointer text-[16px] ${
+                    active === nav.title ? "text-white" : "text-primary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
+                    setToggle(toggle);
                     setActive(nav.title);
                   }}
                 >
