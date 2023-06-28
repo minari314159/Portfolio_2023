@@ -20,9 +20,9 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: 'rgba(243, 241, 240, 0.5)', width: 40, height: 40, color:'rgba(243, 241, 240, 0.3)'}} >
       <div>
-        <h3 className='text-deeporange text-[24px] font-light'>{experience.title}</h3>
+        <h3 className='text-deeporange text-[24px] font-light mb-4'>{experience.title}</h3>
         <p
-          className='text-secondary text-[16px] font-light'
+          className='text-secondary text-[16px] font-light m-2'
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -33,7 +33,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-secondary text-[14px] pl-1 tracking-wider'
+            className='m-5 text-secondary text-sm md:text-lg max-w-5xl  leading-[30px] font-light'
           >
             {point}
           </li>

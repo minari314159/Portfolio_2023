@@ -20,17 +20,17 @@ const ProjectCard =  ({index, name, description, tags, image, source_code_link, 
                 <div className='absolute inset-0 flex justify-end m-3'>
                     <div 
                     onClick={() => window.open(source_code_link, "blank")}
-                    className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                    className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110">
                         <img 
                             src={github}
                             alt="github"
-                            className='w-2/3 h-2/3 object-contain hover:scale-110' />
+                            className='w-2/3 h-2/3 object-contain' />
                     </div>
                 </div>
             </div>
             <div className='mt-5'>
                 <h3 className='text-deeporange font-light text-[25px]'>{name}</h3>
-                <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+                <p className='mt-2 text-secondary font-light text-[14px]'>{description}</p>
             </div>
             <div className='mt-4 flex gap-1'/>
             {tags.map((tag) => (
@@ -53,7 +53,8 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} text-left`}>
           Projects.</h2>
 
-        <p className='text-secondary p-1 ml-4 mb-4'>
+        <p className='m-5 text-secondary text-sm md:text-lg max-w-6xl text-left leading-[30px] font-light ml-4 mb-4'>
+
                 The following showcase my skill and experience through which I developed web applications for real-world projects and product I personally created in the past. Each project is briefly described with links to the code repositories and live demos. It reflects my ability to solve complex problems computationally and with past engineering and design projects, work with different technologies, and manage projects effectively.
         </p>
     </motion.div>

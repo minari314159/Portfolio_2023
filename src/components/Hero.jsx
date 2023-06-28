@@ -1,21 +1,20 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className="relative w-5/6 h-screen mx-auto mb-5">
 
-      <div className="absolute inset-0 top-[120px]  max-w-7xl mx-auto flex flex-row items-start gap-5"
+      <div className="absolute inset-0 top-[100px]  max-w-4xl mx-auto flex flex-row items-start gap-5 "
       >
-        <div className="content-shadow">
-          <h1 className={`${styles.heroHeadText}`}>
+        <div className="content-shadow max-w-4xl">
+          <h1 className="font-light text-secondary  mt-2 ml-3 leading-[98px] text-5xl lg:text-6xl md:text-6xl">
           | <span className='text-slate-400'> SJ Olsen</span> |
           </h1>
-          <p className={`${styles.heroSubText} mt-5 text-gray-500`}>
+          <p className="font-light m-4 text-md text-secondary md:text-lg lg:text-xl text-justify s:text-left">
             Frontend software developer specializing in 3D visuals, interactive user interfaces and React web applications!
           </p>
         </div>
+        {/* MandleBulb */}
       </div>
 
       <div className='absolute xs:bottom-5 bottom-5 w-full flex justify-center items-center'>

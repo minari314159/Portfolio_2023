@@ -53,7 +53,7 @@ return (
 
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
-      className='m-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      className='m-5 text-secondary text-sm md:text-lg max-w-6xl text-left   leading-[30px] font-light'
     >
       I am a frontend software developer with experience in JavaScript and Python, and expertise in frameworks like React, Node.js, and
       Three.js. I am a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve
