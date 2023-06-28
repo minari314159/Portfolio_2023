@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/helper-compilation-targets": "^7.22.5",
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.70.3",
     "@react-three/fiber": "^8.13.0",
+    "@vitejs/plugin-react": "^4.0.1",
     "framer-motion": "^10.12.16",
+    "lru-cache": "^10.0.0",
     "maath": "^0.6.0",
     "math-random": "^2.0.1",
     "react": "^18.2.0",
@@ -21,15 +24,14 @@
     "react-parallax-tilt": "^1.7.143",
     "react-router-dom": "^6.11.2",
     "react-vertical-timeline-component": "^3.6.0",
+    "semver": "^7.5.2",
     "three": "^0.153.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.5",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.43.0",
-    "eslint-plugin-react": "^7.25.3",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "postcss": "^8.4.24",
