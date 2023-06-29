@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
@@ -38,6 +39,6 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, '/');
 
 //remove computer canvas and replace with spinning mandel bulb that goes behind title and name/
