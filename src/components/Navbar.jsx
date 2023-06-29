@@ -10,9 +10,10 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
 
+
   return (
         <nav
-      className="w-full flex items-center py-4 sticky top-0 z-20 bg-gradient-to-r from-red-100 to-slate-400 opacity-80 menu"
+      className="w-full flex items-center py-4 sticky top-0 z-20 bg-gradient-to-r from-red-100 to-slate-400 opacity-80 md:bg-grey-100 menu"
     >
       <div className='w-5/6 flex justify-between items-center mx-auto'>
 
@@ -62,7 +63,7 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-primary"
                   }`}
                   onClick={() => {
-                    setToggle(toggle);
+                    setToggle(!toggle);
                     setActive(nav.title);
                   }}
                 >
