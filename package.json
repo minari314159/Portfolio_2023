@@ -25,7 +25,8 @@
     "react-router-dom": "^6.11.2",
     "react-vertical-timeline-component": "^3.6.0",
     "semver": "^7.5.2",
-    "three": "^0.153.0"
+    "three": "^0.153.0",
+    "vercel": "^31.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
