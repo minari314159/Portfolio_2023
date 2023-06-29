@@ -62,10 +62,10 @@ const Contact = () => {
   };
 
   return (
-    <div className=" xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+    <div className="  lg:flex-row flex-col-reverse items-center flex gap-10 overflow-hidden pb-10 my-5">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] p-8 glass-morph"
+        className="w-[350px] md:w-[550px] lg:w-[500px] p-8 glass-morph"
       >
         <p className={styles.sectionSubText}>Let's get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
@@ -123,7 +123,7 @@ const Contact = () => {
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto ,md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto ,md:h-[550px] lg:w-[300px] h-[450px] flex-[0.75]"
       >
         <EarthCanvas />
       </motion.div>
