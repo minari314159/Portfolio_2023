@@ -10,19 +10,17 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: ligth;
+  color-scheme: light;
 }
 
-
-.green-text-gradient {
-  color: #11998e;
-}
-
-.blue-text-gradient {
+.bluetext {
   color: #1f70c6;
 }
 
-.pink-text-gradient {
+.greentext {
+  color: #11998e;
+}
+.pinktext {
   color: #6b1453;
 }
 
@@ -92,16 +90,16 @@
       rgba(229, 115, 115, 1) 100%
     );
 }
-.menu{
+.menu {
   box-shadow: 0 15px 15px -4px rgba(0, 0, 0, 0.5),
     inset 0 -3px 4px -1px rgba(0, 0, 0, 0.2),
-
     inset 0 0 5px 1px rgba(255, 255, 255, 0.2),
     inset 0 10px 30px 0 rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(50%);
   -webkit-backdrop-filter: blur(50%);
 }
 
+/* tech button- styles */
 .techbtn {
   background: bg-gradient-to-r from-red-400 to-slate-800;
   -webkit-filter: blur(0.5px);
@@ -116,10 +114,6 @@
 }
 
 .techbtn:hover {
-  transition: 0.3s ease-in;
-  transform: scale(1.05);
-}
-.titlebtn:hover {
   transition: 0.3s ease-in;
   transform: scale(1.05);
 }

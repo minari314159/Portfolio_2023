@@ -100,7 +100,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 ];
@@ -165,15 +165,15 @@ const projects = [
     tags: [
       {
         name: "react, threejs, tailwind",
-        color: "blue-text-gradient",
+        color: "bluetext",
       },
       {
         name: "Web-Project Created 2023",
-        color: "green-text-gradient",
+        color: "greentext",
       },
       {
         name: "Project Developed 2021-2022",
-        color: "pink-text-gradient",
+        color: "pinktext",
       },
     ],
     image: autohousepanel,
@@ -186,15 +186,15 @@ const projects = [
     tags: [
       {
         name: "React, Javascript, scss",
-        color: "blue-text-gradient",
+        color: "bluetext",
       },
       {
         name: "Web-Project Created 2023",
-        color: "green-text-gradient",
+        color: "greentext",
       },
       {
         name: "Project Developed 2022",
-        color: "pink-text-gradient",
+        color: "pinktext",
       },
     ],
     image: algopanel,
@@ -207,15 +207,15 @@ const projects = [
     tags: [
       {
         name: "React, Git, Tailwindcss",
-        color: "blue-text-gradient",
+        color: "bluetext",
       },
       {
         name: "Web-Project Created 2023",
-        color: "green-text-gradient",
+        color: "greentext",
       },
       {
         name: "Project Developed 2022-2023",
-        color: "pink-text-gradient",
+        color: "pinktext",
       },
     ],
     image: nanocellumpanel,
@@ -228,15 +228,15 @@ const projects = [
     tags: [
       {
         name: "React, Typescript, Chakra UI",
-        color: "blue-text-gradient",
+        color: "bluetext",
       },
       {
         name: "Web-Project Created 2023",
-        color: "green-text-gradient",
+        color: "greentext",
       },
       {
         name: "Project Developed 2023",
-        color: "pink-text-gradient",
+        color: "pinktext",
       },
     ],
     image: gamehub,
