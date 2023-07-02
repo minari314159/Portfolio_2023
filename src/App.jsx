@@ -13,7 +13,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative 2-0 bg-gradient-to-br from-red-100 to-slate-500">
+      <div className="relative 2-0 bg-gradient-to-br from-red-100 to-slate-500 overflow-x-hidden">
         <Navbar />
         <Hero />
         <About />
