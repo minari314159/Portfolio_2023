@@ -220,6 +220,7 @@ const projects = [
     ],
     image: nanocellumpanel,
     source_code_link: "https://github.com/minari314159/Nanocellum",
+    live_link: "https://nanocellum.vercel.app/",
   },
   {
     name: "Game Hub",
