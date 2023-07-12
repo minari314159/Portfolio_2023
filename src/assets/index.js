@@ -15,6 +15,7 @@ import nanocellumpanel from "./nanocellumpanel.png";
 import autohousepanel from "./autohousepanel.png";
 import algopanel from "./algopanel.png";
 import gamehub from "./gamehub.png";
+import van_life from "./van_lifepanel.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -57,4 +58,5 @@ export {
   nanocellumpanel,
   algopanel,
   gamehub,
+  van_life,
 };

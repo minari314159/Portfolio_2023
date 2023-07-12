@@ -22,6 +22,7 @@ import {
   algopanel,
   gamehub,
   python,
+  van_life,
 } from "../assets";
 
 export const navLinks = [
@@ -159,27 +160,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "Autonomous House",
-    description:
-      "A interactive web-based platform that allows users to scroll through the Autonomous House a visonary project developed with the Autonomous House Group. The web-app displays this envisioned architecture in hot arid environments where thermoelectric waste-heat recovery would be most useful ",
-    tags: [
-      {
-        name: "react, threejs, tailwind",
-        color: "bluetext",
-      },
-      {
-        name: "Web-Project Created 2023",
-        color: "greentext",
-      },
-      {
-        name: "Project Developed 2021-2022",
-        color: "pinktext",
-      },
-    ],
-    image: autohousepanel,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Algowatt",
     description:
       "A product design platform that allows users to discover the world of bio-integrated design. It focuses on a previous project in which the bio-based panel produces electricity from microalgae, comparing to other forms of electricity.",
@@ -243,6 +223,48 @@ const projects = [
     image: gamehub,
     source_code_link: "https://github.com/minari314159/Gamehub",
     live_link: "https://game-7rijhkuik-minari314159.vercel.app",
+  },
+  {
+    name: "Van_Life",
+    description:
+      "An AirBnb style booking site for van rentals tailored towards promoting local travel. Key skill implementation involved the use of a fake API, ReactQuery, React Router and Data Driven Design.",
+    tags: [
+      {
+        name: "React, Javascript, TailwindCSS",
+        color: "bluetext",
+      },
+      {
+        name: "Web-Project Created 2023",
+        color: "greentext",
+      },
+      {
+        name: "Project Developed 2023",
+        color: "pinktext",
+      },
+    ],
+    image: van_life,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Autonomous House",
+    description:
+      "An interactive web-based platform that allows users to scroll through the Autonomous House a visonary project developed with the Autonomous House Group. The web-app displays this envisioned architecture in hot arid environments where thermoelectric waste-heat recovery would be most useful ",
+    tags: [
+      {
+        name: "react, threejs, tailwindCSS",
+        color: "bluetext",
+      },
+      {
+        name: "Web-Project Created 2023",
+        color: "greentext",
+      },
+      {
+        name: "Project Developed 2021-2022",
+        color: "pinktext",
+      },
+    ],
+    image: autohousepanel,
+    source_code_link: "https://github.com/",
   },
 ];
 
