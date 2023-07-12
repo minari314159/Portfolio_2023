@@ -225,7 +225,7 @@ const projects = [
     live_link: "https://game-7rijhkuik-minari314159.vercel.app",
   },
   {
-    name: "Van_Life",
+    name: "VanBnB",
     description:
       "An AirBnb style booking site for van rentals tailored towards promoting local travel. Key skill implementation involved the use of a fake API, ReactQuery, React Router and Data Driven Design.",
     tags: [
